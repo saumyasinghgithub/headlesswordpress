@@ -3,6 +3,13 @@ import Page from "./pages";
 
 const CustomRoutes = [
     {
+        path:"/headlesswordpress",
+        secure:false,
+        exact:true,
+        layout:Layouts.DefaultLayout,
+        component:Page.Home,
+    },
+    {
         path:"/",
         secure:false,
         exact:true,
